@@ -35,3 +35,17 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Java
+/target
+/build
+*.class
+*.jar
+
+# IDEs
+/.idea
+*.iml
+*.log
+
+# Secrets
+src/main/resources/application.properties
